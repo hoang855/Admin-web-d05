@@ -1,0 +1,21 @@
+.header-user {
+  display: flex;
+  align-items: center;
+}
+
+.header-user__notifications ion-icon {
+  font-size: 30px;
+  padding: 0 20px;
+  color: #b9b9b9;
+}
+
+.header-user__img {
+  display: flex;
+  align-items: center;
+}
+
+.header-user__img img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}

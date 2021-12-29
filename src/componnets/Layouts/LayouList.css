@@ -1,0 +1,49 @@
+.LayouList-container {
+  width: 100%;
+}
+
+.LayouList-container ul {
+  padding: 0;
+  margin: 0;
+}
+
+.LayouList-container ul li {
+  line-height: none;
+}
+
+.LayouList-container ul li a {
+  font-size: 16px;
+  display: block;
+  padding: 0.9375rem 1.5625rem;
+  border-bottom: 1px solid #e1e5eb;
+  transition: 0.1s ease-in-out;
+  color: #3d5170;
+  text-decoration: none;
+}
+
+.LayouList-container ul li a:hover {
+  border-left: 2px solid #007bff;
+  background-color: rgb(240, 240, 240);
+  color: #007bff;
+}
+
+.LayouList-container ul li a:hover ion-icon {
+  color: #007bff;
+}
+
+.LayouList-container ul li a ion-icon {
+  font-size: 19px;
+  padding-right: 10px;
+  color: #3d5170;
+}
+
+.div-flet {
+  display: flex;
+  align-items: center;
+}
+
+.neme-admin {
+  font-size: 20px;
+  font-weight: 700;
+  color: blue;
+}

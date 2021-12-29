@@ -1,0 +1,26 @@
+.layout-header {
+  width: 100%;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layout-header h1 {
+  font-size: 25px;
+  margin: 0;
+  padding: 25px;
+}
+
+.layout-body {
+  display: flex;
+}
+
+.layout-body-left {
+  width: 18%;
+}
+
+.layout-body-right {
+  width: 82%;
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,15 @@
+.header-input input {
+  width: 100%;
+  padding: 20px 0;
+  outline: none;
+  border: none;
+  margin-left: 40px;
+}
+
+.header-input ion-icon {
+  position: absolute;
+  top: 21px;
+  left: 18px;
+  font-size: 20px;
+  color: #ababab;
+}
