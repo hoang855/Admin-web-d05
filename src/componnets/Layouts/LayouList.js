@@ -6,11 +6,7 @@ const LayouList = () => {
     <div className="LayouList-container">
       <ul>
         <li className="ul-li-admin">
-          <NavLink to="/">
-            <div className="div-flet">
-              <span className="neme-admin">Admin</span>
-            </div>
-          </NavLink>
+          <NavLink to="/">Admin</NavLink>
         </li>
         <li>
           <NavLink to="/shards-dashboard">

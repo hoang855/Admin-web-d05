@@ -35,9 +35,7 @@ code {
 }
 
 .app-right-header {
-  display: flex;
-  align-items: center;
-  width: 100%;
+  width: 82%;
   z-index: 10;
   position: fixed;
   box-shadow: 0 0px 8px 0 rgb(243 243 243), 0 10px 12px 0 rgb(103 151 255 / 4%);
@@ -50,4 +48,11 @@ code {
 
 .app-right-header__input {
   width: 50%;
+}
+
+.app-right-header__flet {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

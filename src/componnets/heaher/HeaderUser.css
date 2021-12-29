@@ -9,13 +9,33 @@
   color: #b9b9b9;
 }
 
-.header-user__img {
+.header-user__user {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.header-user__user img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.op {
   display: flex;
   align-items: center;
 }
 
-.header-user__img img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
+.op ion-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.bor-dor {
+  border: none;
+}
+
+.bor-dor.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
 }

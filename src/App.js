@@ -19,11 +19,13 @@ function App() {
         </div>
         <div className="app-right">
           <div className="app-right-header">
-            <div className="app-right-header__input">
-              <HeaderInput />
-            </div>
-            <div className="app-right-header__user">
-              <HeaderUser />
+            <div className="app-right-header__flet">
+              <div className="app-right-header__input">
+                <HeaderInput />
+              </div>
+              <div className="app-right-header__user">
+                <HeaderUser />
+              </div>
             </div>
           </div>
           <div className="app-right-header--header"></div>

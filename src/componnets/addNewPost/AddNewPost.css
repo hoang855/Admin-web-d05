@@ -1,0 +1,22 @@
+.add-new-post {
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.add-new-post h1 {
+  font-size: 25px;
+  margin: 20px;
+  color: #3d5170;
+}
+
+.add-new-post-from-input {
+  padding: 20px 0;
+}
+
+.add-new-post-from {
+  display: flex;
+}
+
+.card-w {
+  width: 50%;
+}
