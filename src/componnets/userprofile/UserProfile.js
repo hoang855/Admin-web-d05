@@ -3,11 +3,11 @@ import "./UserProfile.css"
 import Card from "../Layouts/Card";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Form, Row, Col, Button, Navbar, Nav } from "react-bootstrap";
+import { Form, Row, Col, Button, Nav } from "react-bootstrap";
 
 const UserProfile = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "rgb(212, 209, 209)" }}>
       <div className="success">
         <span className="icon-left"><i class="bi bi-check"></i></span>
         <strong>Success ! Your profile has been updated !</strong>
@@ -16,9 +16,9 @@ const UserProfile = () => {
         </span>
 
       </div>
-      <div>
-        <span>OVERVIEW</span>
-        <h3>User Profile</h3>
+      <div style={{ marginLeft: "30px", marginTop: "1rem" }}>
+        <span style={{ fontSize: "10px" }}>OVERVIEW</span>
+        <h3 style={{ fontSize: "26px", fontFamily: "-apple-system" }}>User Profile</h3>
       </div>
       <div className="full-body">
         <Card className="container-info">
@@ -29,22 +29,29 @@ const UserProfile = () => {
             <h4 style={{ marginTop: "1rem", fontFamily: "-apple-system", fontSize: "25px" }}>Seerra Brooks</h4>
             <span style={{ color: "#868e96", fontSize: "15px" }}>Project Manager</span>
             <button className="btn-follow">
-              <i class="bi bi-person-plus-fill">Follow</i>
+              <i class="bi bi-person-plus-fill"></i>Follow
             </button>
 
           </div>
-          <li className="group-item">
-            Workload
-          </li>
-          <li>
-            <strong>Description</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit . Odio eaque.qidem,commodi soluta qui quae minima obcaecati quod dolorum sint alias , possimus illum assumenda eligendi cumque ? </span>
-          </li>
+          <div className="group-item">
+            <strong>
+              <span style={{ fontSize: "15px" }}>Workload</span>
+              <span style={{ marginLeft: "248px", fontSize: "10px" }}>75%</span>
+            </strong>
+            <div class="progress" style={{ height: "5px", borderRadius: "20px" }}>
+              <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+          </div>
+          <div className="group-text">
+            <strong style={{ color: "#868e96" }}>Description</strong>
+            <span style={{ color: "#5a6169" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit . Odio eaque.qidem,commodi soluta qui quae minima obcaecati quod dolorum sint alias , possimus illum assumenda eligendi cumque ? </span>
+          </div>
         </Card>
         <Card className="main-content">
           <div>
             <div>
-              <h6>Account Detail</h6>
+              <h6 style={{ color: "#3d5170", fontFamily: "-apple-system" }}>Account Detail</h6>
               <div>
                 <Form>
                   <Row className="mb-3">
@@ -73,11 +80,6 @@ const UserProfile = () => {
                   <Form.Group className="mb-3" controlId="formGridAddress1">
                     <Form.Label>Address</Form.Label>
                     <Form.Control placeholder="1234 Main St" />
-                  </Form.Group>
-
-                  <Form.Group className="mb-3" controlId="formGridAddress2">
-                    <Form.Label>Address 2</Form.Label>
-                    <Form.Control placeholder="Apartment, studio, or floor" />
                   </Form.Group>
 
                   <Row className="mb-3">
@@ -114,7 +116,7 @@ const UserProfile = () => {
       </div>
 
       <div>
-        <Nav defaultActiveKey="/home" as="ul">
+        <Nav defaultActiveKey="/home" as="ul" style={{ backgroundColor: "white", marginTop: "2rem" }}>
           <Nav.Item as="li">
             <Nav.Link eventKey="link-1">Link</Nav.Link>
           </Nav.Item>

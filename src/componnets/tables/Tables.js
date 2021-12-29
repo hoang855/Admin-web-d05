@@ -5,9 +5,11 @@ import "./Tables.css";
 
 const Tables = () => {
   return (
-    <div>
-      <span>OVERVIEW</span>
-      <h3>Data Tables</h3>
+    <div style={{ backgroundColor: "rgb(212, 209, 209)" }}>
+      <div style={{ marginLeft: "15px", marginTop: ".5rem" }}>
+        <span style={{ fontSize: "10px" }}>OVERVIEW</span>
+        <h3 style={{ fontSize: "26px", fontFamily: "-apple-system" }}>Data Tables</h3>
+      </div>
       <Card className="main-table">
         <table class="table">
           <tbody>
@@ -62,16 +64,16 @@ const Tables = () => {
           </tbody>
         </table>
       </Card>
-      <Card className="under-table">
+      <div className="under-table">
         <table class="table table-dark">
           <tbody>
             <tr>
               <th><h6>Data table</h6></th>
-              <th ></th>
               <th></th>
-              <th ></th>
-              <th ></th>
-              <th ></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
             </tr>
             <tr>
               <th >#</th>
@@ -105,7 +107,7 @@ const Tables = () => {
               <th >Braunau am Inn</th>
               <th >214-4225</th>
             </tr>
-            <tr>
+            <tr style={{ border: "none" }}>
               <th >4</th>
               <th >Colt</th>
               <th >Angela</th>
@@ -115,7 +117,7 @@ const Tables = () => {
             </tr>
           </tbody>
         </table>
-      </Card>
+      </div>
     </div>
   )
 

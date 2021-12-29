@@ -13,9 +13,8 @@
   top: 5px;
 }
 .icon-right > i {
-  margin-left: 920px;
-  line-height: 43px;
   cursor: pointer;
+  margin-left: 900px;
 }
 .btn-follow {
   margin-top: 1rem;
@@ -24,6 +23,7 @@
   border-color: #007bff;
   color: #007bff;
   height: 45px;
+  font-family: -apple-system;
 }
 .btn-follow:hover {
   background-color: #007bff;
@@ -44,9 +44,19 @@
   width: 386px;
   height: 509px;
   margin-top: 1rem;
+  padding: 0;
 }
 .group-item {
   text-align: left;
+  border: 1px solid rgb(212, 209, 209);
+  padding: 15px;
+  margin-top: 1rem;
+  color: #868e96;
+}
+.group-text {
+  display: grid;
+  text-align: left;
+  padding: 18px;
 }
 .full-body {
   display: grid;
@@ -57,4 +67,5 @@
   margin-right: 2rem;
   width: 700px;
   margin-top: 1rem;
+  background-color: rgb(212, 209, 209);
 }

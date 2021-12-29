@@ -3,15 +3,19 @@
   color: #5a6169;
   text-align: center;
   border-width: 1px 0px 0px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 .main-table {
   width: 1218px;
-  height: 300px;
+  height: 250px;
   margin-left: 0.8rem;
+  padding: 0;
 }
 .under-table {
   width: 1218px;
   height: 300px;
   margin-left: 0.8rem;
   margin-top: 2rem;
+  padding: 0;
 }
