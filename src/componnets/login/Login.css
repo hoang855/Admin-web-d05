@@ -1,0 +1,123 @@
+.logi-container {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  height: 2220px;
+  top: 0px;
+  background-color: rgb(0 0 0 / 80%);
+  z-index: 999;
+}
+
+.login-form {
+  width: 60%;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  padding: 10px;
+}
+
+.login-form-img {
+  padding: 10px;
+}
+
+.login-form-form {
+  width: 55%;
+  padding: 20px;
+}
+
+.login-form-form__title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.login-form__form {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.login-form__form__input {
+  width: 100%;
+  position: relative;
+  height: 60px;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.login-form__form__input input {
+  width: 100%;
+  height: 100%;
+  color: #595f6e;
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+
+.login-form__form__input label {
+  position: absolute;
+  border: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+}
+
+.login-form__form__input label::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #1e90ff;
+  transform: translateX(-100%);
+  transition: all 0.3s ease;
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+}
+
+.login-form__form__input input:focus + .label-name .content-name,
+.login-form__form__input input:valid + .label-name .content-name {
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #1e90ff;
+}
+
+.login-form__form__input input:focus + .label-name::after,
+.login-form__form__input input:valid + .label-name::after {
+  transform: translateX(0%);
+}
+
+.login-form__form__btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  margin: 20px 0;
+  background-color: #1173d4;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.login-form__form__btn:hover {
+  background-color: #1e90ff;
+}
+
+.span-let {
+  display: flex;
+}
+
+.span-let p {
+  margin-left: 10px;
+  color: #1173d4;
+  font-weight: 600;
+}

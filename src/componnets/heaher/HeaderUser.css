@@ -39,3 +39,7 @@
 .bor-dor.ant-select:not(.ant-select-customize-input) .ant-select-selector {
   border: none;
 }
+
+.borter {
+  border-top: 1px solid rgb(207, 207, 207);
+}

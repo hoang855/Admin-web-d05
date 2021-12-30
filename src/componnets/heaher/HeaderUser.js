@@ -1,6 +1,4 @@
-import React from "react";
 import "./HeaderUser.css";
-import { useParams } from "react-router-dom";
 import "antd/dist/antd.css";
 import { Select } from "antd";
 import { useNavigate } from "react-router-dom";
@@ -12,14 +10,11 @@ const HeaderUser = () => {
     navigate(value);
   };
 
-  const { param } = useParams();
-
   return (
     <div className="header-user">
       <div className="header-user__notifications">
         <ion-icon name="notifications-outline"></ion-icon>
       </div>
-
       <div className="header-user__user">
         <img
           src="https://designrevision.com/demo/shards-dashboard-lite/images/avatars/0.jpg"
@@ -53,6 +48,12 @@ const HeaderUser = () => {
             <div className="op">
               <ion-icon name="person-outline"></ion-icon>
               <span>User Profile</span>
+            </div>
+          </Option>
+          <Option value="/user-Login" className="borter">
+            <div className="op">
+              <ion-icon name="log-in-outline"></ion-icon>
+              <span>Login</span>
             </div>
           </Option>
         </Select>
