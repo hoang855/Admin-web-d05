@@ -1,4 +1,3 @@
-import Layout from "./componnets/Layouts/Layouts";
 import { Routes, Route } from "react-router-dom";
 import DashBoard from "./componnets/dashBoard/DashBoard";
 import AddNewPost from "./componnets/addNewPost/AddNewPost";
@@ -12,7 +11,6 @@ import Login from "./componnets/login/Login";
 function App() {
   return (
     <div className="App">
-      <Layout />
       <div className="app-container">
         <div className="app-left-left"></div>
         <div className="app-left">
