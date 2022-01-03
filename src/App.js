@@ -8,10 +8,13 @@ import HeaderInput from "./componnets/heaher/HeaderInput";
 import HeaderUser from "./componnets/heaher/HeaderUser";
 import Login from "./componnets/login/Login";
 
+import FlashSale from "./componnets/flashSale";
+
 function App() {
   return (
     <div className="App">
-      <div className="app-container">
+      <FlashSale />
+      {/* <div className="app-container">
         <div className="app-left-left"></div>
         <div className="app-left">
           <LayouList />
@@ -38,7 +41,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/user-Login" element={<Login />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
